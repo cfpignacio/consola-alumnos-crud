@@ -22,7 +22,7 @@ export class Alumno {
 		console.log(this.nombre);
 	}
 
-	guardarAlumno = (a: Ialumno) => {
+	public guardarAlumno = (a: Ialumno) => {
 		try {
 			const alumnos = this.cargarAlumnos();
 			alumnos.push(a);
@@ -34,7 +34,7 @@ export class Alumno {
 		}
 	};
 
-	cargarAlumnos = (): Ialumno[] => {
+	private cargarAlumnos = (): Ialumno[] => {
 		try {
 			const data = fs.readFileSync('alumnos.json', 'utf-8');
 			return JSON.parse(data);
