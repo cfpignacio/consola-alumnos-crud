@@ -1,0 +1,26 @@
+[
+  {
+    "nombre": "ignacio",
+    "apellido": "perez",
+    "telefono": "123213213",
+    "email": "ignacio@pepe.com",
+    "activo": true,
+    "fechaIngreso": "05-07-2023"
+  },
+  {
+    "nombre": "Gonzalo",
+    "apellido": "Gomez",
+    "email": "gGomez@gmail.com",
+    "telefono": "1234567",
+    "fechaIngreso": "05-07-2023",
+    "activo": true
+  },
+  {
+    "nombre": "Sofia",
+    "apellido": "Morales",
+    "email": "smorales@gmail.com",
+    "telefono": "90312322",
+    "fechaIngreso": "05-07-2023",
+    "activo": true
+  }
+]
